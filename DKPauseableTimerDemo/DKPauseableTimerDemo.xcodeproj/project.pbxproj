@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D471D2D823BEE476003DFE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D2D723BEE476003DFE02 /* AppDelegate.swift */; };
+		D471D2DA23BEE476003DFE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D2D923BEE476003DFE02 /* ViewController.swift */; };
+		D471D2DD23BEE476003DFE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D471D2DB23BEE476003DFE02 /* Main.storyboard */; };
+		D471D2DF23BEE4A0003DFE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D471D2DE23BEE4A0003DFE02 /* Assets.xcassets */; };
+		D471D2E223BEE4A0003DFE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D471D2E023BEE4A0003DFE02 /* LaunchScreen.storyboard */; };
+		D471D2ED23BEE4A2003DFE02 /* DKPauseableTimerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D2EC23BEE4A2003DFE02 /* DKPauseableTimerDemoTests.swift */; };
+		D471D2F823BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D2F723BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.swift */; };
+		D471D30723BEE519003DFE02 /* DKPauseableTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D30623BEE519003DFE02 /* DKPauseableTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D471D2E923BEE4A2003DFE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D471D2CC23BEE476003DFE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D471D2D323BEE476003DFE02;
+			remoteInfo = DKPauseableTimerDemo;
+		};
+		D471D2F423BEE4A2003DFE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D471D2CC23BEE476003DFE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D471D2D323BEE476003DFE02;
+			remoteInfo = DKPauseableTimerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D471D2D423BEE476003DFE02 /* DKPauseableTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKPauseableTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D471D2D723BEE476003DFE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D471D2D923BEE476003DFE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D471D2DC23BEE476003DFE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D471D2DE23BEE4A0003DFE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D471D2E123BEE4A0003DFE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D471D2E323BEE4A0003DFE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D471D2E823BEE4A2003DFE02 /* DKPauseableTimerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKPauseableTimerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D471D2EC23BEE4A2003DFE02 /* DKPauseableTimerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKPauseableTimerDemoTests.swift; sourceTree = "<group>"; };
+		D471D2EE23BEE4A2003DFE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D471D2F323BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKPauseableTimerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D471D2F723BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKPauseableTimerDemoUITests.swift; sourceTree = "<group>"; };
+		D471D2F923BEE4A2003DFE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D471D30623BEE519003DFE02 /* DKPauseableTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKPauseableTimer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D471D2D123BEE476003DFE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D471D2E523BEE4A1003DFE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D471D2F023BEE4A2003DFE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D471D2CB23BEE476003DFE02 = {
+			isa = PBXGroup;
+			children = (
+				D471D2D623BEE476003DFE02 /* DKPauseableTimerDemo */,
+				D471D2EB23BEE4A2003DFE02 /* DKPauseableTimerDemoTests */,
+				D471D2F623BEE4A2003DFE02 /* DKPauseableTimerDemoUITests */,
+				D471D2D523BEE476003DFE02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D471D2D523BEE476003DFE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D471D2D423BEE476003DFE02 /* DKPauseableTimerDemo.app */,
+				D471D2E823BEE4A2003DFE02 /* DKPauseableTimerDemoTests.xctest */,
+				D471D2F323BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D471D2D623BEE476003DFE02 /* DKPauseableTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D471D30523BEE4EB003DFE02 /* DKPauseableTimer */,
+				D471D2D723BEE476003DFE02 /* AppDelegate.swift */,
+				D471D2D923BEE476003DFE02 /* ViewController.swift */,
+				D471D2DB23BEE476003DFE02 /* Main.storyboard */,
+				D471D2DE23BEE4A0003DFE02 /* Assets.xcassets */,
+				D471D2E023BEE4A0003DFE02 /* LaunchScreen.storyboard */,
+				D471D2E323BEE4A0003DFE02 /* Info.plist */,
+			);
+			path = DKPauseableTimerDemo;
+			sourceTree = "<group>";
+		};
+		D471D2EB23BEE4A2003DFE02 /* DKPauseableTimerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D471D2EC23BEE4A2003DFE02 /* DKPauseableTimerDemoTests.swift */,
+				D471D2EE23BEE4A2003DFE02 /* Info.plist */,
+			);
+			path = DKPauseableTimerDemoTests;
+			sourceTree = "<group>";
+		};
+		D471D2F623BEE4A2003DFE02 /* DKPauseableTimerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D471D2F723BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.swift */,
+				D471D2F923BEE4A2003DFE02 /* Info.plist */,
+			);
+			path = DKPauseableTimerDemoUITests;
+			sourceTree = "<group>";
+		};
+		D471D30523BEE4EB003DFE02 /* DKPauseableTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D471D30623BEE519003DFE02 /* DKPauseableTimer.swift */,
+			);
+			path = DKPauseableTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D471D2D323BEE476003DFE02 /* DKPauseableTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D471D2FC23BEE4A2003DFE02 /* Build configuration list for PBXNativeTarget "DKPauseableTimerDemo" */;
+			buildPhases = (
+				D471D2D023BEE476003DFE02 /* Sources */,
+				D471D2D123BEE476003DFE02 /* Frameworks */,
+				D471D2D223BEE476003DFE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKPauseableTimerDemo;
+			productName = DKPauseableTimerDemo;
+			productReference = D471D2D423BEE476003DFE02 /* DKPauseableTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D471D2E723BEE4A1003DFE02 /* DKPauseableTimerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D471D2FF23BEE4A2003DFE02 /* Build configuration list for PBXNativeTarget "DKPauseableTimerDemoTests" */;
+			buildPhases = (
+				D471D2E423BEE4A1003DFE02 /* Sources */,
+				D471D2E523BEE4A1003DFE02 /* Frameworks */,
+				D471D2E623BEE4A1003DFE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D471D2EA23BEE4A2003DFE02 /* PBXTargetDependency */,
+			);
+			name = DKPauseableTimerDemoTests;
+			productName = DKPauseableTimerDemoTests;
+			productReference = D471D2E823BEE4A2003DFE02 /* DKPauseableTimerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D471D2F223BEE4A2003DFE02 /* DKPauseableTimerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D471D30223BEE4A2003DFE02 /* Build configuration list for PBXNativeTarget "DKPauseableTimerDemoUITests" */;
+			buildPhases = (
+				D471D2EF23BEE4A2003DFE02 /* Sources */,
+				D471D2F023BEE4A2003DFE02 /* Frameworks */,
+				D471D2F123BEE4A2003DFE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D471D2F523BEE4A2003DFE02 /* PBXTargetDependency */,
+			);
+			name = DKPauseableTimerDemoUITests;
+			productName = DKPauseableTimerDemoUITests;
+			productReference = D471D2F323BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D471D2CC23BEE476003DFE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Derek_Lin;
+				TargetAttributes = {
+					D471D2D323BEE476003DFE02 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D471D2E723BEE4A1003DFE02 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D471D2D323BEE476003DFE02;
+					};
+					D471D2F223BEE4A2003DFE02 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D471D2D323BEE476003DFE02;
+					};
+				};
+			};
+			buildConfigurationList = D471D2CF23BEE476003DFE02 /* Build configuration list for PBXProject "DKPauseableTimerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D471D2CB23BEE476003DFE02;
+			productRefGroup = D471D2D523BEE476003DFE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D471D2D323BEE476003DFE02 /* DKPauseableTimerDemo */,
+				D471D2E723BEE4A1003DFE02 /* DKPauseableTimerDemoTests */,
+				D471D2F223BEE4A2003DFE02 /* DKPauseableTimerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D471D2D223BEE476003DFE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D471D2E223BEE4A0003DFE02 /* LaunchScreen.storyboard in Resources */,
+				D471D2DF23BEE4A0003DFE02 /* Assets.xcassets in Resources */,
+				D471D2DD23BEE476003DFE02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D471D2E623BEE4A1003DFE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D471D2F123BEE4A2003DFE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D471D2D023BEE476003DFE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D471D2DA23BEE476003DFE02 /* ViewController.swift in Sources */,
+				D471D30723BEE519003DFE02 /* DKPauseableTimer.swift in Sources */,
+				D471D2D823BEE476003DFE02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D471D2E423BEE4A1003DFE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D471D2ED23BEE4A2003DFE02 /* DKPauseableTimerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D471D2EF23BEE4A2003DFE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D471D2F823BEE4A2003DFE02 /* DKPauseableTimerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D471D2EA23BEE4A2003DFE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D471D2D323BEE476003DFE02 /* DKPauseableTimerDemo */;
+			targetProxy = D471D2E923BEE4A2003DFE02 /* PBXContainerItemProxy */;
+		};
+		D471D2F523BEE4A2003DFE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D471D2D323BEE476003DFE02 /* DKPauseableTimerDemo */;
+			targetProxy = D471D2F423BEE4A2003DFE02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D471D2DB23BEE476003DFE02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D471D2DC23BEE476003DFE02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D471D2E023BEE4A0003DFE02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D471D2E123BEE4A0003DFE02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D471D2FA23BEE4A2003DFE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D471D2FB23BEE4A2003DFE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D471D2FD23BEE4A2003DFE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B53RK9HWZ;
+				INFOPLIST_FILE = DKPauseableTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DereK-Lin.DKPauseableTimerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D471D2FE23BEE4A2003DFE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B53RK9HWZ;
+				INFOPLIST_FILE = DKPauseableTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DereK-Lin.DKPauseableTimerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D471D30023BEE4A2003DFE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B53RK9HWZ;
+				INFOPLIST_FILE = DKPauseableTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DereK-Lin.DKPauseableTimerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKPauseableTimerDemo.app/DKPauseableTimerDemo";
+			};
+			name = Debug;
+		};
+		D471D30123BEE4A2003DFE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B53RK9HWZ;
+				INFOPLIST_FILE = DKPauseableTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DereK-Lin.DKPauseableTimerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKPauseableTimerDemo.app/DKPauseableTimerDemo";
+			};
+			name = Release;
+		};
+		D471D30323BEE4A2003DFE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B53RK9HWZ;
+				INFOPLIST_FILE = DKPauseableTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DereK-Lin.DKPauseableTimerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKPauseableTimerDemo;
+			};
+			name = Debug;
+		};
+		D471D30423BEE4A2003DFE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B53RK9HWZ;
+				INFOPLIST_FILE = DKPauseableTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DereK-Lin.DKPauseableTimerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKPauseableTimerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D471D2CF23BEE476003DFE02 /* Build configuration list for PBXProject "DKPauseableTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D471D2FA23BEE4A2003DFE02 /* Debug */,
+				D471D2FB23BEE4A2003DFE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D471D2FC23BEE4A2003DFE02 /* Build configuration list for PBXNativeTarget "DKPauseableTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D471D2FD23BEE4A2003DFE02 /* Debug */,
+				D471D2FE23BEE4A2003DFE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D471D2FF23BEE4A2003DFE02 /* Build configuration list for PBXNativeTarget "DKPauseableTimerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D471D30023BEE4A2003DFE02 /* Debug */,
+				D471D30123BEE4A2003DFE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D471D30223BEE4A2003DFE02 /* Build configuration list for PBXNativeTarget "DKPauseableTimerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D471D30323BEE4A2003DFE02 /* Debug */,
+				D471D30423BEE4A2003DFE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D471D2CC23BEE476003DFE02 /* Project object */;
+}
